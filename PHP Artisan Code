@@ -1,0 +1,12 @@
+PHP Artisan Code
+HOW TO CREATE AND HOW IT IS DONE:
+Title--Migration DB Part 9
+ 	Code-php artisan make:model MODEL_NAME --migration
+ 	Note- Model_Name must be singluar camelcase
+
+T--CRUD and Restful Routes Part 10
+ 	C-php artisan make:controller MODEL_NAME+Controller --resource
+ 	N- Model_Name must be singluar camelcase and add Controller. If you will use a flag "resource" it will create a CRUD format. No Flag will be NORMAL Controller only.
+
+ 	C-php artisan route:list
+ 	N-will show all the details of your routings
